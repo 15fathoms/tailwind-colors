@@ -56,7 +56,7 @@ Each format is exported in multiple syntaxes to be used with any frontend workfl
 @import 'css/colors-hex.css';
 
 .my-class {
-  color: var(--color-amber-500-hex);
+  color: var(--amber-500);
 }
 ```
 
@@ -65,7 +65,7 @@ Each format is exported in multiple syntaxes to be used with any frontend workfl
 @use 'scss/colors-oklch' as *;
 
 body {
-  background-color: $zinc-950-oklch;
+  background-color: $zinc-950;
 }
 ```
 
@@ -74,7 +74,7 @@ body {
 @import 'less/colors-rgba.less';
 
 .card {
-  border-color: @blue-600-rgba;
+  border-color: @blue-600;
 }
 ```
 
@@ -83,7 +83,7 @@ body {
 @import 'styl/colors-hex.styl'
 
 h1
-  color: blue-400-hex
+  color: blue-400
 ```
 
 ---
