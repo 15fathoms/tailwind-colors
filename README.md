@@ -36,10 +36,10 @@ git clone https://github.com/15fathoms/tailwind-colors
 cd tailwind-colors
 ```
 
-Install dependencies:
+Install dependencies (optionnal):
 
 ```bash
-npm install
+npm install tailwindcss colorjs.io
 ```
 
 Run the CLI:
